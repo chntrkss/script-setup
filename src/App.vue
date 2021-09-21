@@ -13,7 +13,7 @@
     import { onBeforeMount, onMounted, onUpdated, ref } from "vue";
 
     const showChild = ref(true)
-    const myAlert = ref<(HTMLHeadingElement | HTMLElement)>(null)
+    const myAlert = ref<(HTMLHeadingElement | HTMLElement | null)>(null)
 
     onBeforeMount(() => {
         console.log("onBeforeMount")
